@@ -35,7 +35,10 @@ function App() {
 
         if (newName.trim() !== '') {
             setName(newName.trim());
+            alert(`Nombre cambiado: ${newName}`)
             setNewName('');
+        } else {
+            alert("Por favor, ingresa un nombre.")
         }
     }
 
